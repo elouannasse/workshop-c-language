@@ -1,3 +1,4 @@
+ <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,7 +6,7 @@
 #define LONGUEUR_MAX_TITRE 100
 #define LONGUEUR_MAX_EUTEUR 100
 
-char titre [MAX_LIVERS][0] ;
+char titre [MAX_LIVERS] [LONGUEUR_MAX_TITRE] ;
 char auteur [MAX_LIVERS][LONGUEUR_MAX_EUTEUR] ;
 float prix [MAX_LIVERS] ;
 int quantite [MAX_LIVERS] ;
