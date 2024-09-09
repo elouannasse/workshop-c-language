@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1725916041 source:e:\contacte\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
